@@ -1,0 +1,1 @@
+notice that the buttons are inline without any styling. => use buttons/links in the top right to link to other pages
