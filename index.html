@@ -4,322 +4,139 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- Bootstrap CSS -->
-    <title>VLS | Basic Portfolio</title>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
     <style>
-		.navbar-brand {
-			background-color: #4aaaa5;
-			padding: auto;
-			color: #FFFFFF;
-		}
-		#navBar {
-			padding-top: 0 0 0 0;
-			border-radius: 0;
-			background-color: #4aaaa5;
-			
-		}
-		.nav-link {
-			float: right;
-		}
-		#jumboTron {
-			padding-top: 50px;
-			border-radius: 0;
-		}
-	</style>
+    .myName {
+      background-color: #4AAAA5;
+    }
+    body {
+    background: url('assets/images/Backgrounds/low_contrast_linen/low_contrast_linen/low_contrast_linen_%402X.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    }
+    #showcase {
+    margin: auto;
+    width: 960px;
+    border: #cccccc 3px solid;
+    padding: 10px;
+    margin-top: 50px;
+    font: 14/1.5 Arial, Helvetica, sans-serif;
+    color: #777777;
+    overflow: hidden;
+    background: #ffffff;
+    position: relative;
+    }
+    #pic img {
+    height: 148px;
+    width: 150px;
+    float: left;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    }
+    .showcaseHeader {
+    border-bottom: #cccccc 3px solid;
+    color: #4aaaa5;
+    } 
+
+    .showcaseHeader h2 {
+    font-size: 30px;
+    }
+
+    #paragraph1 {
+    clear: both;
+    float: right;
+    position: absolute;
+    top: 82px;
+    right: 0;
+    width: 810px;
+    margin-left: 10px;
+    margin-top: 30px;
+    overflow: hidden;
+    }
+
+    #paragraph2 {
+    clear: both;
+    position: relative;
+    }
+
+    #paragraph3 {
+    clear: both;
+    position: relative;
+    }
+    </style>
   </head>
   <body>
-  	<!-- Navbar -->
-	<div class="container navBar fixed-top">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navBar">
-		  <div class="navbar-brand"> Vincent Simpson </div>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <div class="container">
-			    <ul class="navbar-nav mr-auto">
-			      <li class="nav-item active">
-			        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Portfolio</a>
-			      </li>
-			      <!-- li class="nav-item dropdown">
-			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          Dropdown
-			        </a>
-			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item" href="#">Action</a>
-			          <a class="dropdown-item" href="#">Another action</a>
-			          <div class="dropdown-divider"></div>
-			          <a class="dropdown-item" href="#">Something else here</a>
-			        </div>
-			      </li -->
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Contact</a>
-			      </li>
-			    </ul>	    	
-		    </div>
+    <!-- Navbar -->
+  <div id="primary-nav">
+    <div class="container navBar border-bottom border-dark">
+      <nav class="navbar navbar-expand-lg fixed-top align-items-center navbar-light bg-light" id="navBar">
+        <div class="myName">
+          <div class="navbar-brand text-white mx-auto pl-4 pr-4"> Vincent Simpson </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+            <ul class="navbar-nav ml-auto">
+              
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
 
-		    <!-- form class="form-inline my-2 my-lg-0">
-		      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-		    </form -->
-		  </div>
-		</nav>		
-	</div>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>       
+          </div>
+      </nav>      
+    </div>
+  </div>
+  <!-- Content -->
+  <main role="main" class="container">
+    <section id="showcase">
+           <div class="showcaseHeader">
+              <h2>About Me</h2> 
+           </div>
+            <div>
+                <p id="pic"><img src="assets/images/bw_turntable.jpg" alt="me"></p>
+                <p id="paragraph1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt expedita magni sunt, sapiente, nihil optio ab, deserunt suscipit saepe aliquam in? Et voluptas ullam repudiandae, perspiciatis, natus sed veritatis totam aliquam vero dignissimos, accusamus mollitia deserunt quidem perferendis aperiam praesentium, labore fugit necessitatibus? Consequuntur tempore, ipsa, natus provident iste ut sapiente dolores, vel deleniti magnam molestiae eaque doloribus incidunt pariatur.</p>  
+            </div>
+            <p id="paragraph2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia consequuntur culpa maiores, reprehenderit iste tempora! Id corrupti voluptatem quis, dignissimos vitae, corporis esse, minima quibusdam perferendis labore modi quod aut tempora sunt impedit consequatur velit quam cumque! Laborum repellendus impedit pariatur ex nulla ducimus, ullam itaque architecto hic iusto illum!</p>
+            <p id="paragraph3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, ab eos ipsam ea consectetur facilis sequi! Aliquid quam animi consequuntur sapiente, eum, minima cumque provident similique repellendus autem quas repudiandae voluptate dignissimos quos? Minus repudiandae, atque, voluptas incidunt libero excepturi quidem delectus quia dolorem aliquam repellendus voluptates et velit. Totam?</p>
+    </section>
+    
+  </main>
+  <!-- Jumbotron -->
 
-
-	<!-- Jumbotron -->
-	<div class="jumbotron" id="jumboTron">
-		<div class="container">
-			<h1>About Me</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti inventore ducimus perferendis, officia corporis ipsa soluta totam eligendi eum quo deserunt laboriosam a exercitationem debitis nobis suscipit reprehenderit voluptas quia consequatur aliquid voluptatum sunt ad. Sed voluptatum dolorem ex quaerat?</p>	
-		</div>
-	</div>
-  	<!-- Typography -->
-	<div class="container">
-		<h1 class="page-header">Hello World! <small>Secondary text</small></h1>
-		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis enim nisi earum amet at beatae fugiat quisquam facilis nulla dolores eligendi, soluta mollitia non, voluptate ipsum officia neque maxime error vel in ad illo tempore iste! Quia impedit ipsa quos quis eligendi beatae consequatur labore architecto repellendus quam, delectus, soluta.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero fugiat id adipisci alias officia tempore facilis quis earum minima doloremque excepturi distinctio iste nisi reiciendis magnam repudiandae impedit ex, suscipit praesentium temporibus doloribus neque. Itaque dolores saepe eveniet dolorem, esse porro. Aspernatur consequuntur accusamus nam id nobis necessitatibus, architecto unde.</p>
-
-		<hr>
-
-		<!-- Alignment & Transformation-->
-		<p class="text-left text-lowercase">This text is aligned to the left and is all lowercase</p>
-		<p class="text-center text-uppercase">This text is aligned to the center and is all uppercase</p>
-		<p class="text-right text-capitalize">This text is aligned to the right and the first letter of a new word is capitalized</p>
-		<p class="text-justify">Justified text</p>
-		<p class="text-nowrap">No wrap text</p>
-
-		<!-- Floats -->
-		<div class="float-right">Div floated to the right</div>
-		<div class="float-left">Div floated to the left</div>
-
-		<!-- Clering the float with "clearfix" -->
-		<div class="clearfix"></div>
-		<hr>
-
-		<!-- Block Qutoe -->
-		<blockquote class="blockquote-reverse">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque eveniet quis itaque inventore reiciendis debitis quaerat cupiditate aliquid, voluptas ea.</p><footer>Quote By <cite title="John Doe">John Doe</cite></footer>
-		</blockquote>
-		<hr>
-
-		<!-- Lists -->
-		<h4>here's a default list</h2>
-		<ul>
-			<li>Item One</li>
-			<li>Item Two</li>
-			<li>Item Three</li>
-			<li>Item Four</li>
-		</ul>
-		<h4>here's a list without the default styling</h2>
-		<ul class="list-unstyled">
-			<li>Item One</li>
-			<li>Item Two</li>
-			<li>Item Three</li>
-			<li>Item Four</li>
-		</ul>
-		<h4>here's a horizontal default list </h2>
-		<ul class="list-inline">
-			<li class="list-inline-item">Item One</li>
-			<li class="list-inline-item">Item Two</li>
-			<li class="list-inline-item">Item Three</li>
-			<li class="list-inline-item">Item Four</li>
-		</ul>
-		<hr>
-
-		<!-- Contextual Colors: Text -->
-		<h4>Contextual Colors: Text</h4>
-		<p class="text-primary">Howdy Gaia (primary color)</p>
-		<p class="text-success">Howdy Gaia (success)</p>
-		<p class="text-info">Howdy Gaia (info)</p>
-		<p class="text-warning">Howdy Gaia (warning)</p>
-		<p class="text-danger">Howdy Gaia (danger)</p>
-		<p class="text-muted">Howdy Gaia (muted)</p>
-		<hr>
-		
-		<!-- Cotextual Colors: Background -->
-		<h4>Contextual Colors: Background</h4>
-		<p class="bg-primary">Howdy Gaia (primary color)</p>
-		<p class="bg-success">Howdy Gaia (success)</p>
-		<p class="bg-info">Howdy Gaia (info)</p>
-		<p class="bg-warning">Howdy Gaia (warning)</p>
-		<p class="bg-danger">Howdy Gaia (danger)</p>
-		<p class="bg-muted">Howdy Gaia (muted)</p>
-		<hr>
-
-		<!-- Buttons -->
-		<h4>Buttons</h4>
-		<p>Notice that the buttons are inline</p>
-		<div class="container">	
-			<button class="btn btn-default">Default</button>
-			<a href="#" class="btn btn-default" role="button">Link</a>
-			<input type="submit" class="btn btn-default" value="Submit">
-		</div>
-		<hr>
-
-		<!-- Contextul Colors: Buttons -->
-		<h4>Contextual Colors: Buttons</h4>
-		<btn class="btn btn-default">Default</btn>
-		<btn class="btn btn-primary">Primary</btn>
-		<btn class="btn btn-success">Success</btn>
-		<btn class="btn btn-info">Info</btn>
-		<btn class="btn btn-warning">Warning</btn>
-		<btn class="btn btn-danger">Danger</btn>
-		<btn class="btn btn-link">Link</btn>
-		<hr>
-
-		<!-- Button Sizes -->
-		<h4>Button Sizes and Disable</h4>
-		<span class="list-inline float-left">
-			<p class="list-inline-item">SM</p><button class="btn btn-warning btn-sm">Default</button>
-		</span>
-		<br>
-		<span class="list-inline float-left">
-			<p class="list-inline-item">XS</p><button class="btn btn-primary btn-xs">Default</button>
-		</span>
-		<br>
-		<span class="list-inline float-left">
-			<p class="list-inline-item">Default</p><button class="btn btn-info btn-default">Default</button>
-		</span>
-		<br>
-		<span class="list-inline float-left">
-			<p class="list-inline-item">LG</p><button class="btn btn-danger btn-lg">Default</button>
-		</span>
-		<br>
-		<br>
-		<span class="list-inline float-left">
-			<p class="list-inline-item">Disabled</p><button class="btn btn-success btn-lg" disabled="disabled">Default</button>
-		</span>
-		<br>
-		<br>
-		<hr>
-
-		
-	<!-- Forms -->
-	<h4>Forms</h4>
-	<br>
-	<div class="container">
-		<form>
-			
-			<div class="form-group">
-				<label>Name</label>
-				<input type="text" class="form-control" placeholder="Add Name">
-			</div>
-			
-			<div class="form-group">
-				<label>Email</label>
-				<input type="email" class="form-control" placeholder="Add Email">
-			</div>
-			
-			<div class="form-group">
-				<label>Message</label>
-				<input type="text" class="form-control" placeholder="Add Message">
-			</div>
-			<!-- Drop Down Menu -->
-			<div class="form-group">
-				<label>Gender</label>
-				<select class="form-control">
-					<option value="select">Select</option>
-					<option value="male">Male</option>
-					<option value="female">Female</option>
-					<option value="other">Other</option>
-				</select>
-			</div>
-			<!-- Upload File -->
-			<div class="form-group">
-				<label>Upload File</label>
-				<input type="file">
-				<p class="help-block">Only png and jpg allowed</p>
-			</div>
-			<!-- Ceckbox -->
-			<div class="checkbox">
-				<label>
-					<input type="checkbox">	Check Me Out 
-				</label>
-			</div>
-			<!-- Submit Button -->
-			<button type="submit" class="btn btn-default">Submit</button>
-		</form>
-
-		<hr>
-		
-		<!-- Inline Forms -->
-
-		<form class="form-inline">
-			<div class="form-group">
-				<label>Email  </label>
-				<input type="email" class="form-control" placeholder="Email">
-			</div>
-			<br>
-			<div class="form-group">
-				<label>Password  </label>
-				<input type="password" class="form-control" placeholder="Password">
-			</div>
-			<br>
-			<div class="checkbox">
-				<label>
-					<input type="checkbox"> Remember ME  
-				</label>
-			</div>
-			<br>
-			<button type="submit" class="btn btn-default">Login</button>	
-		</form>
-	</div>
-	<br>
-	<hr>	
-
-	<!-- Grids -->
-	<h4>Grids</h4>
-	<div class="container">
-		<!-- Four Columns -->
-		<h5>Four columns</h5>
-		<div class="row">
-			<div class="col-sm">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			</div>
-			<div class="col-sm">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			</div>
-			<div class="col-sm">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			</div>
-			<div class="col-sm">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			</div>
-		</div>
-		<h5>Two Columns</h5>
-		<div class="row">
-			<div class="col-sm">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			</div>
-			<div class="col-sm">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			</div>
-			
-		</div>
-	
-
-	</div>
-
-			
+  <!-- Footer -->
+    <!-- Footer -->
+  <footer class="footer text-center fixed-bottom bg-dark text-white">
+    <div class="container">
+      <span>Copyright &copy; </span>
+    </div>
+  </footer>  
 
 
-	<div style="height: 400px"></div>	
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!--script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
 
     
-
