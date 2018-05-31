@@ -8,82 +8,18 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>VLS | B34 Portfolio</title>
     <style>
-    .myName {
-      background-color: #4AAAA5;
-    }
     body {
 	background: url('assets/images/Backgrounds/low_contrast_linen/low_contrast_linen/low_contrast_linen_%402X.png') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
  	-o-background-size: cover;
- 	}
- 	#gallery {
-    margin: auto;
-    width: 960px;
-    height: 800px;
-    border: #cccccc 3px solid;
-    padding: 10px;
-    margin-top: 50px;
-    font: 14/1.5 Arial, Helvetica, sans-serif;
-    color: #777777;
-    overflow: hidden;
-    background: #ffffff;
-    position: relative;
-}
-
-section h2 {
-    color: #4aaaa5;
-    font-size: 30px;
-    border-bottom: #cccccc 3px solid; 
-}
-
-.games img{
-    height: 200px;
-    width: 300px;
-    position: absolute;
-    margin-top: 10px;
-}
-
-.games .gameBanner {
-    position: fixed;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    width: 300px;
-    text-align: center;
-    height: 30px;
-    padding-top: 1px;
-    padding-bottom: 10px;
-    margin-top: 150px;
-    font-size: 30px;
-}
-
-#hangman {
-    float: left;
-}
-
-#goMoto {
-    position: absolute;
-    right: 620px;
-}
-
-#shore {
-    position: absolute;
-    top: 320px;
-}
-
-#sunset {
-    position: absolute;
-    top: 320px;
-    right: 620px;
-}
-
-#turntable {
-    position: absolute;
-    top: 560px;
-}
+ 	} 
+    .myName {
+    background-color: #4AAAA5;
+    }
     </style>
   </head>
   <body>
@@ -118,53 +54,45 @@ section h2 {
     </div>
   </div>
    <!-- Gallery -->
-  <main role="main" class="container">
-  	<section id="gallery">
-            <div id="showcaseHeader">
-              <h2>Portfolio</h2> 
-           </div>
-            <div id="hangman">
-                <div class="games">
-                <img src="assets/images/bw_golden_gate_bridge.jpg" alt="bridge">
-                <div class="gameBanner">
-                    Hangman
-                </div>
-            </div>
-            </div>
-            
-            <div class="games">
-                <div id="goMoto">
-                    <img src="assets/images/bw_motorcycle.jpg" alt="bridge">
-                    <div class="gameBanner">
-                        RPG Game
-                    </div>
-                </div>
-            </div>
-            <div class="games">
-                <div id="shore">
-                    <img src="assets/images/bw_rocky_shore.jpg" alt="bridge">
-                    <div class="gameBanner">
-                        Trivia Game
-                    </div>
-                </div>
-            </div>
-            <div class="games">
-                <div id="sunset">
-                    <img src="assets/images/bw_sunset.jpg" alt="bridge">
-                    <div class="gameBanner">
-                        UCB Info Widget
-                    </div>
-                </div>
-            </div>
-            <div class="games">
-                <div id="turntable">
-                    <img src="assets/images/bw_turntable.jpg" alt="bridge">
-                    <div class="gameBanner">
-                    Mix N Match
-                    </div>
-                </div>
-            </div>
-        </section>
+  <div class="container mt-4" style="width: 960px;">
+    <div class="card-columns">
+        <div class="card mt-4" style="width:20rem;">
+          <img class="card-img-top" src="assets/images/bw_golden_gate_bridge.jpg" alt="Card image top">
+          <div class="card-body">
+            <h3 class="card-title text-center">Card title</h3>
+          </div>
+        </div>
+
+        <div class="card" style="width:20rem;">
+          <img class="card-img-top mt-4" src=" assets/images/bw_motorcycle.jpg " alt="Card image top">
+          <div class="card-body">
+            <h3 class="card-title text-center">Card title</h3>
+          </div>
+        </div>
+
+        <div class="card" style="width:20rem;">
+          <img class="card-img-top mt-4" src="assets/images/bw_rocky_shore.jpg " alt="Card image top">
+          <div class="card-body">
+            <h3 class="card-title text-center">Card title</h3>
+          </div>
+        </div>
+
+        <div class="card" style="width:20rem;">
+          <img class="card-img-top mt-4" src="assets/images/bw_sunset.jpg" alt="Card image top">
+          <div class="card-body">
+            <h3 class="card-title text-center">Card title</h3>
+          </div>
+        </div>
+
+        <div class="card" style="width:20rem;">
+          <img class="card-img-top mt-4" src="assets/images/bw_turntable.jpg" alt="Card image top">
+          <div class="card-body">
+            <h3 class="card-title text-center">Card title</h3>
+          </div>
+        </div>        
+    </div>
+
+  	
   </main>
     <!-- Footer -->
   <footer class="footer text-center fixed-bottom bg-dark text-white">
